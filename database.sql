@@ -48,6 +48,7 @@ INSERT INTO public.rol ("name") VALUES
 	 ('USER'),
 	 ('ADMIN');
 
+-- All password are Test123123!$
 INSERT INTO public.usuario (nickname,"password") VALUES
 	 ('User','$2b$12$zZi5aNvNjdZn/wwvPgqXwOMwrYGTsQ9IrybmCUd6L5UpIsS0yNDdW'),
 	 ('Admin','$2b$12$zZi5aNvNjdZn/wwvPgqXwOMwrYGTsQ9IrybmCUd6L5UpIsS0yNDdW'),
