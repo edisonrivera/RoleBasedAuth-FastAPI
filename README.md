@@ -42,7 +42,7 @@ class RoleEnum(StrEnum):
 
 ![JWT.png](assets/03-admin.png)
 
----------------------------------------------------------------------------------------------
+---
 
 ### Documentation 📃
 
@@ -57,3 +57,20 @@ class RoleEnum(StrEnum):
 + `allow_all: bool`: Boolean indicating all roles are authorized.
 
 + `strict_roles: bool`: Indicates that a user must have strictly the indicated roles, no more roles, or contain the indicated roles.
+
+
+---
+
+
+### Docker Deploy 🐳
+
+1. To deploy only run the command
+
+```bash
+docker-compose up
+```
+
+And just wait while all is building... 😁. FastAPI is up on **8000** port ⚡
+
+> [!IMPORTANT]
+> For testing only, the password of all users is **`Test123123!$`**
